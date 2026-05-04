@@ -2,37 +2,40 @@
 Proyecto de POO - Unidad 2: Gestión de Contenido Audiovisual con Herencia, Polimorfismo, Asociación, Agregación y composición en Java
 Este proyecto es una aplicación desarrollada en Java que utiliza los fundamentos de la Programacion Orientada a objetos (POO) para gestionar diversos tipos de medios audiovisuales.
 
-Características principales:
-**Estructura Jerárquica:** Uso de herencia para extender una clase base (`ContenidoAudiovisual`) hacia tipos específicos como Películas, Series, Documentales, Videos de YouTube y Cortometrajes.
-**Polimorfismo:** Implementación de métodos que se comportan de forma distinta según el tipo de objeto.
-**Relaciones UML:** Aplicación práctica de Agregación (Actor), Composición (Temporada) y Asociación (Investigador).
+## Características principales:
+### **Estructura Jerárquica:** 
+Uso de herencia para extender una clase base (`ContenidoAudiovisual`) hacia tipos específicos como Películas, Series, Documentales, Videos de YouTube y Cortometrajes.
+### **Polimorfismo:** 
+Implementación de métodos que se comportan de forma distinta según el tipo de objeto.
+### **Relaciones UML:** 
+Aplicación práctica de Agregación (Actor), Composición (Temporada) y Asociación (Investigador).
 
-**Problema que resuelve:** 
+### **Problema que resuelve:** 
 Facilita la organización y visualización de metadatos de una biblioteca multimedia diversa, permitiendo una gestión unificada a pesar de las diferencias técnicas entre cada formato.
 
-**Instrucciones de Instalación y Uso**
-Requisitos previos
+## Instrucciones de Instalación y Uso
+### Requisitos previos
 * **Java JDK 26** o superior.
 * **Eclipse IDE** (u otro entorno compatible con Java).
 * **Git** instalado en el sistema.
 
 ### Instalación
-*Paso 1 Iniciar el proceso de Importación en Eclipse
-	Abrir Eclipse.
-	Ir al menú superior: File > Import....
-	En la ventana que aparece, se despliega la carpeta Git y selecciona Projects from Git (with smart import). Hacer clic en Next.
-*Paso 2 Configurar la conexión con GitHub.
-	Selecciona Clone URI y haz clic en Next.
-	En el campo URI, pegar el link de GitHub del proyecto(https://github.com/joeclone21-arch/David_Salas_Tarea_POO_U2.git) . Ver que los campos de Host y Repository path se llenan solos.
-	Autenticación: Si el repositorio es público, puedes dejar los campos de usuario y contraseña vacíos. Si es privado, deberás ingresar tu usuario de GitHub y un Personal Access Token (GitHub ya no acepta contraseñas normales para esto). Hacer clic en Next.
-	Seleccionar la Rama (Branch)
-	Eclipse mostrará las ramas disponibles (main o master).
-	Confirmar de que esté marcada la rama principal y hacer clic en Next.
-	Directorio Local y Finalización
-	Local Destination: elegir en qué carpeta de tu computadora quieres que se guarde el proyecto físicamente. Haz clic en Next.
-	Eclipse analizará el contenido. Eclipse detectará que es un proyecto de Java. Hacer clic en Finish.
+* **Paso 1 Iniciar el proceso de Importación en Eclipse.**
+*	**Abrir Eclipse.**
+*	**Ir al menú superior: File > Import....**
+*	**En la ventana que aparece, se despliega la carpeta Git y selecciona Projects from Git (with smart import). Hacer clic en Next.**
+* **Paso 2 Configurar la conexión con GitHub.**
+*	**Selecciona Clone URI y haz clic en Next.**
+*	**En el campo URI, pegar el link de GitHub del proyecto(https://github.com/joeclone21-arch/David_Salas_Tarea_POO_U2.git) . Ver que los campos de Host y Repository path se llenan solos.**
+*	**Autenticación: Si el repositorio es público, puedes dejar los campos de usuario y contraseña vacíos. Si es privado, deberás ingresar tu usuario de GitHub y un Personal Access Token (GitHub ya no acepta contraseñas normales para esto). Hacer clic en Next.**
+*	**Seleccionar la Rama (Branch)**
+*	**Eclipse mostrará las ramas disponibles (main o master).**
+*	**Confirmar de que esté marcada la rama principal y hacer clic en Next.**
+*	**Directorio Local y Finalización**
+*	**Local Destination: elegir en qué carpeta de tu computadora quieres que se guarde el proyecto físicamente. Haz clic en Next.**
+*	**Eclipse analizará el contenido. Eclipse detectará que es un proyecto de Java. Hacer clic en Finish.**
 
-  ## 🌟 Extensiones y Mejoras (Etapa 4 e Iniciativa Propia)
+  ## Extensiones y Mejoras (Etapa 4 e Iniciativa Propia)
 
 ### Nuevas Clases Implementadas
 Se añadieron las clases **Actor, Investigador y Temporada.**
