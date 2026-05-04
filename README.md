@@ -10,7 +10,7 @@ Características principales:
 **Problema que resuelve:** 
 Facilita la organización y visualización de metadatos de una biblioteca multimedia diversa, permitiendo una gestión unificada a pesar de las diferencias técnicas entre cada formato.
 
-Instrucciones de Instalación y Uso
+**Instrucciones de Instalación y Uso**
 Requisitos previos
 * **Java JDK 26** o superior.
 * **Eclipse IDE** (u otro entorno compatible con Java).
