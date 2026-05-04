@@ -17,11 +17,11 @@ Requisitos previos
 * **Git** instalado en el sistema.
 
 ### Instalación
-Paso 1 Iniciar el proceso de Importación en Eclipse
+*Paso 1 Iniciar el proceso de Importación en Eclipse
 	Abrir Eclipse.
 	Ir al menú superior: File > Import....
 	En la ventana que aparece, se despliega la carpeta Git y selecciona Projects from Git (with smart import). Hacer clic en Next.
-Paso 2 Configurar la conexión con GitHub.
+*Paso 2 Configurar la conexión con GitHub.
 	Selecciona Clone URI y haz clic en Next.
 	En el campo URI, pegar el link de GitHub del proyecto(https://github.com/joeclone21-arch/David_Salas_Tarea_POO_U2.git) . Ver que los campos de Host y Repository path se llenan solos.
 	Autenticación: Si el repositorio es público, puedes dejar los campos de usuario y contraseña vacíos. Si es privado, deberás ingresar tu usuario de GitHub y un Personal Access Token (GitHub ya no acepta contraseñas normales para esto). Hacer clic en Next.
